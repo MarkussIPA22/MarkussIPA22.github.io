@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+<nav>
+    <img src="social_leaderboard_FILL0_wght400_GRAD0_opsz48.svg" class="logo">
+    <input type="checkbox">  
+    <ul>
+     
+      
+    </ul>
+    <img src="menu_FILL0_wght400_GRAD0_opsz48.svg" class ="menu"/>
+        <img src="close_FILL0_wght400_GRAD0_opsz48.svg" class= "close">
+</nav>
+<div class="header-text"></div>
+    
+    <h1>Sveiki,es esmu<span></span> markuss<br> no vtdt</h1>
+     
+</div>
+    </div>
+    <!-- -----------Par----------- -->
+         <div id="Par">
+             <div class="container">
+                    <div class="row">
+                         <div class="about-col-1">
+                            <img src="Snapinsta.app_338783819_1032483658156295_588189972577666739_n_1080.jpg">
+        
+                         </div>
+                             <div class="about-col-2">
+                                <h1 class="sub-title"> Par mani</h1>
+                                <p> Mani sauc Markuss  es mācos VTDT  un es ļoti mīlu programēšanu un agma io</p>
+
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('Prasmes')">Prasmes</p>
+            <p class="tab-links"  onclick="opentab('Mani darbi')">Mani darbi</p>
+            <p class="tab-links"  onclick="opentab('Izglītība')">Izglītība</p>
+        </div>
+        <div class="tab-contents active-tab" id="Prasmes">
+            <ul>
+                <li><span>Spēles</span><br>Fortnite , agma io</li>
+                <li><span>Skolā</span><br>Stundas pie Jēkaba</li>
+               
+            </ul>
+        </div>
+        <div class="tab-contents" id="Mani darbi">
+            <ul>
+                <li><a href="ToDO.html">ToDO List</a></li>
+
+                <li><a href="dzīvnieki.html">Dzīvnieki</a></li>
+               
+            </ul>
+        </div>
+        <div class="tab-contents" id="Izglītība">
+        <li><span> Bērnudārzs </span><br>2 Cēsu Bērnudārzi </li>
+        <li><span >Skola </span><br> Pastariņi , CPV.</li>
+                                 </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ---------Services--------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> </h1> 
+        </div>
+    </div>
+    
+<div id="contacts">
+    <div class="container">
+        <div id="row">
+            <div class="contact-left">
+
+<h1 class="sub-title">Kontakti</h1>
+<p>janisozols@gmail.com</p>
+<p> 371 2713621</p>
+<div class="social icons">
+
+
+<a href="https://www.google.com/intl/lv/gmail/about/" target="_blank"></a>
+<img class="mail" src="mail_FILL0_wght400_GRAD0_opsz48.svg" >
+</a>
+<a href="https://www.instagram.com/markusshmm/"></a>
+<img class="insta" src="insta.png" >
+</a>
+            </div>  
+         <div class="contact-right">
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <script>
+
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+
+
+
+    </script>
+</body>
+</html>

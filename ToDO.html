@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+</head>
+<body>
+    <h1>ToDo</h1>
+    <form onsubmit="handleSubmit(event)">
+        <label for="uzdevums">Ievadi uzdevumu:</label>
+        <input id="uzdevums" />
+        <input type="submit" value="Pievieno uzdevumu">
+        <h1>The button Element</h1>
+
+<button type="button" onclick="alert('Hello world!')">Click Me!</button>
+ 
+    </form>
+   <ul id="rezultats"></ul>
+
+<script> 
+function handleSubmit(event) { 
+    console.log("Strādā");
+    event.preventDefault();
+let Teksts =document.getElementById("uzdevums").value;
+console.log(Teksts);
+let result = document.getElementById("rezultats");
+
+
+let newListItem = document.createElement("li")
+newListItem.textContent="I love lean";
+result.appendChild(newListItem);
+}
+
+</script>
+
+
+</body>
+</html>
