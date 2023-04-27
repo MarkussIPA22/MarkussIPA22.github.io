@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel ="stylesheet" href="style.css"/>
+    <style>
+      
+        body {
+        background-image: url(lejupielāde.jpeg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: cover;
+      }
+    .flex-container {
+        display: flex;
+        align-items: center;
+  justify-content: center;
+      }
+      
+      .flex-container > div {
+        background-color: #8c0fc5;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+        border: 5px solid #4c026e;
+        border-radius: 100%;
+      }
+      
+    </style>  
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <input type="checkbox" />
+            <ul>
+                <li class="line"><a href="parmani.html">Par mani</a></li>
+                <li class="line"><a href="kontakti.html">Kontakti</a></li>
+                <li class="line"><a href="#projekti">Projekti</a></li>
+            </ul>
+            <img class="menu" src="menu.svg" alt="Menu" />
+            <img class="close" src="close.svg" alt="Close" />
+        </nav>
+    </header>
+    <main>
+        <h1><span class="sliced" style="color:black(0, 255, 242)">Markusa</span> portfolio</h1>
+        <br><br>
+        <h2>Šis esmu es</h2>
+        <div class="image-container">
+        <img class="es" src="Snapinsta.app_338783819_1032483658156295_588189972577666739_n_1080.jpg" style="max-width: 100%;">
+       
+        
+        </div>
+        <article>
+            <h3>Mani sauc markuss man ir 17 gadi un es mācos programēšanā:</h3>
+        </article>
+        <div class="flex-container" id="projekti">
+            <div class="1"><a href="heading.html">Krasas</a></div>
+            <div class="2"><a href="centrs.html">Kvadrats</a></div>  
+            <div class="3"><a href="todo2.html">ToDO Refresh</a></div>
+        </div>
+        
+    </main>
+    <footer><h3 class="bucas">FOOTER "<span style="color:#4c026e(255, 0, 0)"></span>" </h3></footer>
+</body>
+</html>
