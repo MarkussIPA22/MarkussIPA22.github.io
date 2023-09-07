@@ -1,7 +1,54 @@
 body {
-    background-image: url("ksamil.jpg");
+    background-image: url("https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?cs=srgb&dl=pexels-daniel-absi-952670.jpg&fm=jpg");
     
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+
 }
+h1 {
+    color: white;
+}
+p1 {
+    font-size: 30px;
+   color: white;
+}
+
+p2 {
+    font-size: 30px;
+    color: white
+}
+
+p3 {
+    font-size: 30px;
+    color: white;
+}
+
+p4 {
+    font-size: 30px;
+    color: white;
+}
+
+  
+
+  
+  .journal-entry {
+    background-color: gray;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid red;
+    border-radius: 12px;
+  }
+  
+  .journal-entry h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: yellow;
+  }
+  
+  .journal-entry p {
+    font-size: 20px;
+    color: white;
+  }
+  
+ 
